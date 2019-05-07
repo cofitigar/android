@@ -16,7 +16,7 @@
     { "id": 1, "subject": "aaaa", "content": "facebook", "folder":{ "id": 1, "name": "Primljene" } },
     { "id": 2, "subject": "bbbb", "content": "pin", "folder":{ "id": 1, "name": "Primljene" } },
     { "id": 3, "subject": "ccc", "content": "blablabla", "folder":{ "id": 1, "name": "Primljene" }}
-    ]}
+    ]},
     { "id": 2, "name": "Primljene",
     "messages": [
       { "id": 4, "subject": "dddd", "content": "pffafafafafin", "folder":{ "id": 2, "name": "Poslate" } }
