@@ -1,15 +1,22 @@
 {
   "messages": [
-    { "id": 1, "subject": "aaaa", "content": "VEGAN", },
-    { "id": 2, "subject": "bbbb", "content": "VEGAN", },
-    { "id": 3, "subject": "ccc", "content": "VEGAN",}
+    { "id": 1, "subject": "aaaa", "content": "facebook", "folder":{ "id": 2, "name": "Primljene" } },
+    { "id": 2, "subject": "bbbb", "content": "pin", "folder":{ "id": 2, "name": "Primljene" } },
+    { "id": 3, "subject": "ccc", "content": "blablabla", "folder":{ "id": 2, "name": "Primljene" }}
   ],
   "accounts": [
-    { "id": 1, "username": "cofi", "password": 123 },
-    { "id": 2, "username": "bugarin", "password": 123 }
+    { "id": 1, "username": "cofi", "password": "123" },
+    { "id": 2, "username": "bugarin", "password": "123" }
   ],
   
-  "profile": {
-    "name": "typicode"
-  }
+  "folders": [
+    { "id": 1, "name": "Poslate" },
+    { "id": 2, "name": "Primljene" }
+  ],
+  
+  "contacts": [
+    { "id": 1, "firstName": "aaa", "lastName":"aaaa", "display":"display", "email":"aaa@gmail.com" },
+    { "id": 1, "firstName": "bbbb", "lastName":"aaaa", "display":"display", "email":"bbb@gmail.com" },
+    { "id": 1, "firstName": "ccc", "lastName":"aaaa", "display":"display", "email":"cccc@gmail.com" }
+  ],
 }
