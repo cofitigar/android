@@ -1,0 +1,16 @@
+{
+  "messages": [
+    { "id": 1, "subject": "aaaa", "content": "VEGAN", },
+    { "id": 2, "subject": "bbbb", "content": "VEGAN", },
+    { "id": 3, "subject": "ccc", "content": "VEGAN",}
+  ],
+  "accounts": [
+    { "id": 1, "username": "cofi", "password": 123 },
+    { "id": 2, "username": "bugarin", "password": 123 }
+  ],
+  "contact": 
+  [
+    {   "id": 1, "firstName": "vegan", "lastName": "simara" },
+    {  "id": 1, "firstName": "vegancic", "lastName": "simo"}
+  ]
+}
