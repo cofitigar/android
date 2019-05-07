@@ -1,9 +1,9 @@
 {
   "messages": [
-    { "id": 1, "subject": "aaaa", "content": "facebook", "folder":{ "id": 1, "name": "Primljene" } },
-    { "id": 2, "subject": "bbbb", "content": "pin", "folder":{ "id": 1, "name": "Primljene" } },
-    { "id": 3, "subject": "ccc", "content": "blablabla", "folder":{ "id": 1, "name": "Primljene" }},
-    { "id": 4, "subject": "dddd", "content": "pffafafafafin", "folder":{ "id": 2, "name": "Poslate" } }
+    { "id": 1, "subject": "aaaa", "content": "facebook", "folder":{ "id": 1, "name": "Poslate" } },
+    { "id": 2, "subject": "bbbb", "content": "pin", "folder":{ "id": 1, "name": "Poslate" } },
+    { "id": 3, "subject": "ccc", "content": "blablabla", "folder":{ "id": 1, "name": "Poslate" }},
+    { "id": 4, "subject": "dddd", "content": "pffafafafafin", "folder":{ "id": 2, "name": "Primljene" } }
   ],
   "accounts": [
     { "id": 1, "username": "cofi", "password": "123" },
@@ -11,16 +11,8 @@
   ],
   
   "folders": [
-    { "id": 1, "name": "Poslate", 
-    "messages": [
-    { "id": 1, "subject": "aaaa", "content": "facebook", "folder":{ "id": 1, "name": "Primljene" } },
-    { "id": 2, "subject": "bbbb", "content": "pin", "folder":{ "id": 1, "name": "Primljene" } },
-    { "id": 3, "subject": "ccc", "content": "blablabla", "folder":{ "id": 1, "name": "Primljene" }}
-    ]},
-    { "id": 2, "name": "Primljene",
-    "messages": [
-      { "id": 4, "subject": "dddd", "content": "pffafafafafin", "folder":{ "id": 2, "name": "Poslate" } }
-    ]}
+    { "id": 1, "name": "Poslate" },
+    { "id": 2, "name": "Primljene"}
   ],
   
   "contacts": [
